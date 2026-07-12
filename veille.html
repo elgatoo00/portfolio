@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Veille Technologique | Meriem M'barki</title>
+    <meta name="description"
+        content="Veille technologique de Meriem M'barki sur l'IA dans la cybersécurité (Analyse et détection de Malwares) - BTS SIO SISR.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header class="scrolled">
+        <nav class="navbar">
+            <a href="index.html" class="logo">
+                <div class="logo-icon">
+                    <div class="circle"></div>
+                    <div class="triangle"></div>
+                </div>
+                Portfolio
+            </a>
+            <a href="index.html#veille" class="btn btn-outline-purple" style="font-size: 0.9rem; padding: 8px 16px;"><i class="fa-solid fa-arrow-left" style="margin-right: 8px;"></i> Retour au Portfolio</a>
+        </nav>
+    </header>
+
+    <main style="padding-top: 130px;">
+        <section class="section">
+            <div style="text-align: center; margin-bottom: 4rem;">
+                <h1 class="section-title" style="margin-bottom: 1rem;">Veille <span>Technologique</span></h1>
+                <p style="color: var(--primary-color); font-family: var(--font-mono); font-size: 1.1rem; margin-bottom: 2rem;">Thème : L'IA dans la Cybersécurité (Analyse et détection de Malwares)</p>
+                
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <p style="color: #aaa; font-size: 1rem; font-weight: 600;">Outils de veille utilisés :</p>
+                    <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 0.5rem;">
+                        <div class="tool-card glass-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; padding: 16px 20px; border-radius: 12px; max-width: 280px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <img src="Logo-Google-Alerts.webp" alt="Google Alerts" style="height: 30px; width: auto; object-fit: contain; border-radius: 4px;">
+                                <span style="font-weight: 600; font-size: 0.95rem;">Google Alerts</span>
+                            </div>
+                            <p class="tool-desc">
+                                Automatise la veille en envoyant des alertes e-mail selon des mots-clés définis.
+                            </p>
+                        </div>
+                        <div class="tool-card glass-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; padding: 16px 20px; border-radius: 12px; max-width: 280px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <img src="freedly.webp" alt="Feedly" style="height: 30px; width: auto; object-fit: contain; border-radius: 4px;">
+                                <span style="font-weight: 600; font-size: 0.95rem;">Feedly</span>
+                            </div>
+                            <p class="tool-desc">
+                                Centralise et organise les flux RSS des blogs et sites de cybersécurité suivis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Timeline of Articles (Ordre Chronologique : Septembre 2025 à Juillet 2026) -->
+            <div class="timeline" style="max-width: 900px; margin: 0 auto; position: relative;">
+                
+                <!-- Article 1: 16 Septembre 2025 -->
+                <div class="timeline-item" id="spamgpt">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="date">16 Septembre 2025</span>
+                        <h3 style="margin-top: 0.5rem; margin-bottom: 1rem; color: var(--primary-color);">SpamGPT : L'IA au service des cybercriminels pour le phishing</h3>
+                        <p style="margin-bottom: 1.5rem; color: #ccc; font-size: 0.95rem; line-height: 1.6;">
+                            Analyse de SpamGPT, une suite d'outils d'IA générative hébergée sur le Darknet et exploitée pour automatiser le phishing de masse. Ce cas pratique démontre comment les attaquants configurent l'IA pour générer et affiner des mails malveillants indétectables par les filtres classiques.
+                        </p>
+                        <a href="https://dcod.ch/2025/09/16/spamgpt-ia-cybercriminels-phishing/" target="_blank" class="btn btn-outline-purple" style="font-size: 0.85rem; padding: 8px 16px;">
+                            Consulter l'article <i class="fa-solid fa-arrow-up-right-from-square" style="margin-left: 8px;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Article 2: 22 Septembre 2025 -->
+                <div class="timeline-item" id="malterminal-gpt4">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="date">22 Septembre 2025</span>
+                        <h3 style="margin-top: 0.5rem; margin-bottom: 1rem; color: var(--primary-color);">MalTerminal : Un malware générateur de charges utiles basé sur GPT-4</h3>
+                        <p style="margin-bottom: 1.5rem; color: #ccc; font-size: 0.95rem; line-height: 1.6;">
+                            Des chercheurs en cybersécurité ont mis en lumière MalTerminal, un malware qui utilise l'API de GPT-4 pour générer et modifier dynamiquement des scripts d'attaque (reverse shells et ransomwares). Ce logiciel montre les défis de l'analyse comportementale de codes malveillants créés à la volée.
+                        </p>
+                        <a href="https://hacktualites.com/cybersecurite/des-chercheurs-decouvrent-un-malware-malterminal-base-sur-gpt-4-a-lorigine-de-ransomwares-et-de-shells-inverses" target="_blank" class="btn btn-outline-purple" style="font-size: 0.85rem; padding: 8px 16px;">
+                            Consulter l'article <i class="fa-solid fa-arrow-up-right-from-square" style="margin-left: 8px;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Article 3: 26 Juin 2026 -->
+                <div class="timeline-item" id="mac-malware">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="date">26 Juin 2026</span>
+                        <h3 style="margin-top: 0.5rem; margin-bottom: 1rem; color: var(--primary-color);">Mac Malware : Contournement des outils d'analyse basés sur l'IA</h3>
+                        <p style="margin-bottom: 1.5rem; color: #ccc; font-size: 0.95rem; line-height: 1.6;">
+                            Découverte d'une variante de malware ciblant macOS conçue spécifiquement pour leurrer les moteurs de détection heuristique dopés à l'intelligence artificielle. Le malware intègre dynamiquement des portions de code sain pour tromper le modèle prédictif des EDR.
+                        </p>
+                        <a href="https://www.clubic.com/actualite-618760-ce-malware-ne-piege-pas-seulement-votre-mac-il-tente-aussi-d-embrouiller-les-outils-d-analyse-dopes-a-l-ia-charges-de-le-demasquer.html" target="_blank" class="btn btn-outline-purple" style="font-size: 0.85rem; padding: 8px 16px;">
+                            Consulter l'article <i class="fa-solid fa-arrow-up-right-from-square" style="margin-left: 8px;"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Article 4: 27 Juin 2026 -->
+                <div class="timeline-item" id="claude-code">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <span class="date">27 Juin 2026</span>
+                        <h3 style="margin-top: 0.5rem; margin-bottom: 1rem; color: var(--primary-color);">GitHub et Claude Code : Vulnérabilité des assistants de codage autonomes</h3>
+                        <p style="margin-bottom: 1.5rem; color: #ccc; font-size: 0.95rem; line-height: 1.6;">
+                            Une étude met en lumière le risque d'exécution involontaire de commandes malveillantes par les assistants IA autonomes (comme Claude Code) lorsqu'ils sont autorisés à interagir directement avec des dépôts Git. L'attaquant peut exploiter des instructions cachées pour compromettre la machine du développeur.
+                        </p>
+                        <a href="https://www.briefia.fr/article/github-et-claude-code-un-duo-vulnerable-face-aux-malwares" target="_blank" class="btn btn-outline-purple" style="font-size: 0.85rem; padding: 8px 16px;">
+                            Consulter l'article <i class="fa-solid fa-arrow-up-right-from-square" style="margin-left: 8px;"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div style="text-align: center; margin-top: 4rem;">
+                <a href="index.html#veille" class="btn btn-primary"><i class="fa-solid fa-arrow-left-long" style="margin-right: 8px;"></i> Retour au Portfolio</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-panel" style="margin-top: 5rem;">
+        <div class="footer-content" style="text-align: center; padding: 2rem 5%;">
+            <p>&copy; 2026 - Meriem M'barki | Portfolio BTS SIO SISR - Veille Technologique</p>
+        </div>
+    </footer>
+</body>
+
+</html>

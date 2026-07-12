@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meriem M'barki | Portfolio Cybersécurité</title>
+    <meta name="description"
+        content="Portfolio de Meriem M'barki, étudiante en BTS SIO option SISR (2025-2027) spécialisée en cybersécurité.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="background-effects">
+        <div class="glow glow-1"></div>
+        <div class="glow glow-2"></div>
+    </div>
+
+    <header>
+        <nav class="navbar">
+            <a href="#accueil" class="logo">
+                <div class="logo-icon">
+                    <div class="circle"></div>
+                    <div class="triangle"></div>
+                </div>
+                Portfolio
+            </a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#veille">Veille</a></li>
+                <li><a href="#e5">E5</a></li>
+                <li><a href="#e6">E6</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- ACCUEIL -->
+        <section id="accueil" class="hero">
+            <div class="hero-content fade-in">
+                <p class="intro-text">Bonjour, je m'appelle</p>
+                <h1 class="hero-name"><span class="underline">Meriem</span> M'barki</h1>
+                <h2 class="hero-role"><span id="typewriter-text"></span><span class="cursor">|</span></h2>
+
+                <div class="hero-socials">
+                    <a href="https://www.linkedin.com/in/meriem-m-a87393387" target="_blank"><i
+                            class="fa-brands fa-linkedin"></i></a>
+                    <a href="https://github.com/elgatoo00" target="_blank"><i class="fa-brands fa-github"></i></a>
+                </div>
+
+                <div class="cta-buttons mt-4">
+                    <a href="#contact" class="btn btn-outline-purple">Me Contacter</a>
+                </div>
+            </div>
+            <div class="hero-image fade-in">
+                <div class="hologram-effect">
+                    <img src="hero-image.png" alt="3D Developer"
+                        style="max-width: 100%; width: 450px; filter: drop-shadow(0 0 20px var(--secondary-color)); border-radius: 20px;">
+                </div>
+                <div class="vertical-text">SISR</div>
+            </div>
+        </section>
+
+        <!-- A PROPOS & COMPETENCES -->
+        <section id="apropos" class="section glass-panel">
+            <h2 class="section-title">À <span>propos</span> de moi</h2>
+            <div class="about-grid" style="margin-bottom: 3rem;">
+                <div class="about-text">
+                    <p>Actuellement en formation de <strong>BTS SIO (Services Informatiques aux Organisations) option
+                            SISR (Solutions d'Infrastructure, Systèmes et Réseaux)</strong> pour la session 2025-2027.
+                    </p>
+                    <p>Mon objectif est d'approfondir mes connaissances dans le domaine de la cybersécurité pour
+                        protéger les infrastructures réseaux contre les menaces émergentes.</p>
+                </div>
+                <div class="about-text">
+                    <h3 style="margin-bottom: 1rem; color: var(--primary-color);">Mes Atouts</h3>
+                    <ul style="list-style: none; padding: 0; line-height: 2;">
+                        <li><i class="fa-solid fa-check"
+                                style="color: var(--secondary-color); margin-right: 10px;"></i><strong>Rigueur
+                                :</strong> Travail précis et structuré</li>
+                        <li><i class="fa-solid fa-check"
+                                style="color: var(--secondary-color); margin-right: 10px;"></i><strong>Curiosité
+                                :</strong> Apprentissage autonome en IT/cyber</li>
+                        <li><i class="fa-solid fa-check"
+                                style="color: var(--secondary-color); margin-right: 10px;"></i><strong>Adaptabilité
+                                :</strong> Aisance dans de nouveaux environnements</li>
+                        <li><i class="fa-solid fa-check"
+                                style="color: var(--secondary-color); margin-right: 10px;"></i><strong>Persévérance
+                                :</strong> Détermination face aux défis</li>
+                    </ul>
+                </div>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem; color: var(--primary-color); text-align: center;">Compétences Techniques
+            </h3>
+            <div class="skills-container"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 4rem;">
+                <div class="skill-category glass-card" style="padding: 1.5rem;">
+                    <h4 style="margin-bottom: 1.5rem; color: #fff; font-size: 1.2rem;"><i class="fa-solid fa-server"
+                            style="color: var(--secondary-color);"></i> Systèmes</h4>
+                    <div class="skills" style="display: flex; flex-direction: column; gap: 0.8rem;">
+                        <span class="skill-tag" style="text-align: left;">Administration Windows (W10 / Srv 2019)</span>
+                        <span class="skill-tag" style="text-align: left;">Linux (Debian 12)</span>
+                        <span class="skill-tag" style="text-align: left;">Active Directory (Utilisateurs &
+                            Droits)</span>
+                        <span class="skill-tag" style="text-align: left;">PowerShell</span>
+                        <span class="skill-tag" style="text-align: left;">Virtualisation (Oracle VirtualBox)</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card" style="padding: 1.5rem;">
+                    <h4 style="margin-bottom: 1.5rem; color: #fff; font-size: 1.2rem;"><i
+                            class="fa-solid fa-network-wired" style="color: var(--secondary-color);"></i> Réseaux</h4>
+                    <div class="skills" style="display: flex; flex-direction: column; gap: 0.8rem;">
+                        <span class="skill-tag" style="text-align: left;">Adressage IP (IPv4), TCP/IP, DNS, DHCP</span>
+                        <span class="skill-tag" style="text-align: left;">Config (Switch, Routeur, VLAN, ACL)</span>
+                        <span class="skill-tag" style="text-align: left;">Conception (Cisco Packet Tracer)</span>
+                        <span class="skill-tag" style="text-align: left;">Analyse réseau (Wireshark)</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card" style="padding: 1.5rem;">
+                    <h4 style="margin-bottom: 1.5rem; color: #fff; font-size: 1.2rem;"><i
+                            class="fa-solid fa-shield-halved" style="color: var(--secondary-color);"></i> Cybersécurité
+                    </h4>
+                    <div class="skills" style="display: flex; flex-direction: column; gap: 0.8rem;">
+                        <span class="skill-tag" style="text-align: left;">Bonnes pratiques & RGPD</span>
+                        <span class="skill-tag" style="text-align: left;">Sécurité Infra (Proxy, DMZ, Firewall)</span>
+                        <span class="skill-tag" style="text-align: left;">Veille cybersécurité (ANSSI)</span>
+                        <span class="skill-tag" style="text-align: left;">Tests de vulnérabilités (Root-Me)</span>
+                    </div>
+                </div>
+                <div class="skill-category glass-card" style="padding: 1.5rem;">
+                    <h4 style="margin-bottom: 1.5rem; color: #fff; font-size: 1.2rem;"><i
+                            class="fa-solid fa-screwdriver-wrench" style="color: var(--secondary-color);"></i> Outils &
+                        Dev</h4>
+                    <div class="skills" style="display: flex; flex-direction: column; gap: 0.8rem;">
+                        <span class="skill-tag" style="text-align: left;">Bureautique (Word, PowerPoint,
+                            LibreOffice)</span>
+                        <span class="skill-tag" style="text-align: left;">Code : HTML, CSS, Python, PHP, SQL</span>
+                        <span class="skill-tag" style="text-align: left;">Création : Canva</span>
+                    </div>
+                </div>
+            </div>
+
+            <h3 style="margin-bottom: 1.5rem; color: var(--primary-color); text-align: center;">Centres d'intérêt</h3>
+            <div class="skills" style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
+                <span class="skill-tag" style="display: flex; align-items: center;"><img
+                        src="https://tryhackme.com/favicon.ico" alt="THM"
+                        style="width: 20px; margin-right: 8px; border-radius: 4px;"> TryHackMe</span>
+                <span class="skill-tag" style="display: flex; align-items: center;"><img
+                        src="https://www.root-me.org/favicon.ico" alt="RootMe"
+                        style="width: 20px; margin-right: 8px; border-radius: 4px;"> Root-Me</span>
+                <span class="skill-tag"><i class="fa-solid fa-graduation-cap" style="margin-right: 5px;"></i> Cyber
+                    Learning</span>
+                <span class="skill-tag"><i class="fa-solid fa-newspaper" style="margin-right: 5px;"></i> Veille
+                    Sécurité</span>
+            </div>
+        </section>
+
+        <!-- CERTIFICATIONS -->
+        <section id="certifications" class="section">
+            <h2 class="section-title">Mes <span>Certifications</span></h2>
+            <div class="cards-grid">
+                <div class="card glass-card">
+                    <img src="anssi-logo.jpg" alt="Logo ANSSI"
+                        style="height: 60px; object-fit: contain; margin-bottom: 1rem; background: #fff; padding: 5px; border-radius: 8px; display: block; margin-left: auto; margin-right: auto;">
+                    <h3>SecNumacadémie</h3>
+                    <p><strong>ANSSI</strong><br>Agence nationale de la sécurité des systèmes d'information</p>
+                    <p style="color: #aaa; margin-top: 1rem; font-size: 0.9rem; margin-bottom: 1.5rem;"><i
+                            class="fa-regular fa-calendar"></i> févr. 2026</p>
+                    <a href="secnum.pdf" target="_blank" class="btn btn-outline-purple"
+                        style="font-size: 0.85rem; padding: 8px 16px; display: block; text-align: center;"><i
+                            class="fa-solid fa-file-pdf" style="margin-right: 5px;"></i> Voir le certificat</a>
+                </div>
+                <div class="card glass-card">
+                    <img src="cnil-logo.png" alt="Logo CNIL"
+                        style="height: 60px; object-fit: contain; margin-bottom: 1rem; background: #fff; padding: 5px; border-radius: 8px; display: block; margin-left: auto; margin-right: auto;">
+                    <h3>Certification RGPD</h3>
+                    <p><strong>CNIL</strong><br>Règlement général sur la protection des données</p>
+                    <p style="color: #aaa; margin-top: 1rem; font-size: 0.9rem; margin-bottom: 1.5rem;"><i
+                            class="fa-regular fa-calendar"></i> oct. 2025</p>
+                    <div style="display: flex; flex-direction: column; gap: 0.5rem;">
+                        <a href="cnil_module1.pdf" target="_blank" class="btn btn-outline-purple"
+                            style="font-size: 0.8rem; padding: 6px 10px; text-align: center;"><i
+                                class="fa-solid fa-file-pdf" style="margin-right: 5px;"></i> Module 1</a>
+                        <a href="cnil_module2.pdf" target="_blank" class="btn btn-outline-purple"
+                            style="font-size: 0.8rem; padding: 6px 10px; text-align: center;"><i
+                                class="fa-solid fa-file-pdf" style="margin-right: 5px;"></i> Module 2</a>
+                        <a href="cnil_module3.pdf" target="_blank" class="btn btn-outline-purple"
+                            style="font-size: 0.8rem; padding: 6px 10px; text-align: center;"><i
+                                class="fa-solid fa-file-pdf" style="margin-right: 5px;"></i> Module 3</a>
+                        <a href="cnil_module4.pdf" target="_blank" class="btn btn-outline-purple"
+                            style="font-size: 0.8rem; padding: 6px 10px; text-align: center;"><i
+                                class="fa-solid fa-file-pdf" style="margin-right: 5px;"></i> Module 4</a>
+                    </div>
+                </div>
+                <div class="card glass-card">
+                    <img src="ebios-logo.jpg" alt="Logo EBIOS"
+                        style="height: 60px; object-fit: contain; margin-bottom: 1rem; background: #fff; padding: 5px; border-radius: 8px; display: block; margin-left: auto; margin-right: auto;">
+                    <h3>Ebios Risk Manager</h3>
+                    <p><strong>Club EBIOS</strong><br>Gestion des risques de cybersécurité</p>
+                    <p style="color: #aaa; margin-top: 1rem; font-size: 0.9rem; margin-bottom: 1.5rem;"><i
+                            class="fa-regular fa-calendar"></i> janv. 2026</p>
+                    <a href="ebios_certif.pdf" target="_blank" class="btn btn-outline-purple"
+                        style="font-size: 0.85rem; padding: 8px 16px; display: block; text-align: center;"><i
+                            class="fa-solid fa-file-pdf" style="margin-right: 5px;"></i> Voir le certificat</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARCOURS & BENEVOLAT -->
+        <section id="parcours" class="section">
+            <h2 class="section-title">Mon <span>Parcours</span></h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap;">
+                            <img src="louisarmand-logo.jpg?v=3" alt="Lycée Louis Armand"
+                                style="height: 50px; background: #fff; padding: 5px; border-radius: 8px;">
+                            <div style="flex: 1; min-width: 200px;">
+                                <h3>BTS SIO option SISR</h3>
+                                <span class="date">Depuis septembre 2025</span>
+                                <p>Services Informatiques aux Organisations - Solutions d'Infrastructure, Systèmes et
+                                    Réseaux.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap;">
+                            <img src="cyberv-logo.png?v=2" alt="CyberV"
+                                style="height: 50px; background: #fff; padding: 5px; border-radius: 8px;">
+                            <div style="flex: 1; min-width: 200px;">
+                                <h3>Bénévolat : Growth Hacker</h3>
+                                    <span class="date">janv. 2026 - Présent</span>
+                                    <p>
+                                        <strong>CyberV</strong><br>
+                                        Développement de la présence en ligne, optimisation et sécurité.<br>
+                                        <strong>Pôle SOC</strong><br>
+                                        Pentest automatisé
+                                    </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <div style="display: flex; gap: 1rem; align-items: flex-start; flex-wrap: wrap;">
+                            <img src="tribunal_ad_paris.png" alt="Tribunal administratif de Paris"
+                                style="height: 50px; background: #fff; padding: 5px; border-radius: 8px;">
+                            <div style="flex: 1; min-width: 200px;">
+                                <h3>Stage : Technicien informatique</h3>
+                                <span class="date">18 mai au 19 juin 2026</span>
+                                <p><strong>Tribunal administratif de Paris</strong></p>
+                                <ul style="list-style-type: disc; margin-left: 20px; margin-top: 8px; line-height: 1.6; color: #ccc;">
+                                    <li>Support et assistance aux utilisateurs</li>
+                                    <li>Installation et configuration de postes informatiques</li>
+                                    <li>Diagnostic et résolution de pannes matérielles simples</li>
+                                    <li>Maintenance et préparation de matériel informatique</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Stage de 2ème année</h3>
+                        <span class="date">Du 14 décembre 2026 au 22 janvier 2027 (5-8 semaines)</span>
+                        <p>Ouverte à toute proposition de stage ...</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content glass-card">
+                        <h3>Licence</h3>
+                        <span class="date">À partir de septembre 2027</span>
+                        <p>À la recherche d'une alternance pour septembre 2027.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJETS -->
+        <section id="projets" class="section">
+            <h2 class="section-title">Mes <span>Projets</span></h2>
+            <div class="cards-grid">
+                <div class="card glass-card project-card">
+                    <div class="project-img"><i class="fa-solid fa-network-wired"></i></div>
+                    <h3>Déploiement AD et GPO</h3>
+                    <p>Mise en place d'un domaine Windows Server, gestion des utilisateurs et sécurisation par GPO.</p>
+                </div>
+                <div class="card glass-card project-card">
+                    <div class="project-img"><i class="fa-solid fa-server"></i></div>
+                    <h3>Serveur Web Sécurisé</h3>
+                    <p>Déploiement d'un serveur Linux (LAMP) avec durcissement sécurité et pare-feu UFW.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- VEILLE -->
+        <section id="veille" class="section glass-panel">
+            <h2 class="section-title">Veille <span>Technologique</span></h2>
+            
+            <div class="veille-header" style="margin-bottom: 3rem; text-align: center;">
+                <h3 style="margin-bottom: 1.5rem; font-size: 1.6rem; color: #fff;">Thème : L'IA dans la Cybersécurité (Analyse et détection de Malwares)</h3>
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 0.8rem;">
+                    <p style="color: #aaa; font-size: 1rem; font-weight: 600;">Outils de veille utilisés :</p>
+                    <div style="display: flex; gap: 1.5rem; justify-content: center; align-items: center; flex-wrap: wrap; margin-top: 0.5rem;">
+                        <div class="tool-card glass-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; padding: 16px 20px; border-radius: 12px; max-width: 280px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <img src="Logo-Google-Alerts.webp" alt="Google Alerts" style="height: 30px; width: auto; object-fit: contain; border-radius: 4px;">
+                                <span style="font-weight: 600; color: #fff; font-size: 0.95rem;">Google Alerts</span>
+                            </div>
+                            <p class="tool-desc">
+                                Automatise la veille en envoyant des alertes e-mail selon des mots-clés définis.
+                            </p>
+                        </div>
+                        <div class="tool-card glass-card" style="display: flex; flex-direction: column; align-items: center; text-align: center; gap: 8px; padding: 16px 20px; border-radius: 12px; max-width: 280px;">
+                            <div style="display: flex; align-items: center; gap: 12px;">
+                                <img src="freedly.webp" alt="Feedly" style="height: 30px; width: auto; object-fit: contain; border-radius: 4px;">
+                                <span style="font-weight: 600; color: #fff; font-size: 0.95rem;">Feedly</span>
+                            </div>
+                            <p class="tool-desc">
+                                Centralise et organise les flux RSS des blogs et sites de cybersécurité suivis.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div style="text-align: center; margin-top: 3rem;">
+                <a href="veille.html" class="btn btn-outline-purple"><i class="fa-solid fa-book-open" style="margin-right: 8px;"></i> Accéder à l'intégralité de la Veille</a>
+            </div>
+        </section>
+
+        <!-- E5 (Tableau de synthèse) -->
+        <section id="e5" class="section">
+            <h2 class="section-title">Épreuve <span>E5</span> : Tableau de synthèse</h2>
+            <p style="text-align: center; margin-bottom: 2rem;">Tableau récapitulatif des compétences mises en œuvre
+                lors des réalisations professionnelles.</p>
+            <div class="table-responsive glass-card">
+                <table class="synth-table">
+                    <thead>
+                        <tr>
+                            <th>Réalisations</th>
+                            <th>Gérer le patrimoine info.</th>
+                            <th>Répondre aux incidents</th>
+                            <th>Développer la présence en ligne</th>
+                            <th>Travailler en mode projet</th>
+                            <th>Mettre à dispo des services IT</th>
+                            <th>Organiser son développement pro.</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Stage 1 - Déploiement Parc</td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td>Projet - Sécurisation Active Directory</td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                            <td></td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                        </tr>
+                        <tr>
+                            <td>Stage 2 - Migration Serveurs</td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                            <td></td>
+                            <td></td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                            <td class="checked"><i class="fa-solid fa-check"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div style="text-align: center; margin-top: 2rem;">
+                <a href="#" class="btn btn-secondary"><i class="fa-solid fa-download"></i> Télécharger au format PDF</a>
+            </div>
+        </section>
+
+        <!-- E6 -->
+        <section id="e6" class="section glass-panel">
+            <h2 class="section-title">Épreuve <span>E6</span> : Cybersécurité</h2>
+            <div class="about-grid">
+                <div class="about-text">
+                    <p>Cette section est dédiée à la présentation du projet de cybersécurité pour l'épreuve E6.</p>
+                    <p>Détails sur l'analyse de risques, le plan d'action sécurité et les mesures techniques
+                        implémentées pour protéger l'infrastructure étudiée.</p>
+                </div>
+                <div class="cards-grid" style="margin-top: 0;">
+                    <div class="card glass-card">
+                        <i class="fa-solid fa-file-shield card-icon"></i>
+                        <h3>Dossier E6</h3>
+                        <p>Consulter l'étude de cas et les solutions de sécurité apportées.</p>
+                        <a href="#" class="btn btn-primary" style="margin-top: 1rem;">Voir le dossier</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Me <span>Contacter</span></h2>
+            <div class="contact-container">
+                <form action="https://formsubmit.co/portfolio.meriem@gmail.com" method="POST"
+                    class="contact-form glass-card">
+                    <input type="hidden" name="_subject" value="Nouveau message depuis votre Portfolio !">
+                    <input type="hidden" name="_captcha" value="false">
+
+                    <div class="input-group">
+                        <input type="text" name="Nom" placeholder="Votre Nom" required>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" name="Email" placeholder="Votre Email" required>
+                    </div>
+                    <div class="input-group">
+                        <textarea name="Message" placeholder="Votre Message" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="glass-panel">
+        <div class="footer-content">
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/meriem-m-a87393387" target="_blank"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/elgatoo00" target="_blank"><i class="fa-brands fa-github"></i></a>
+            </div>
+            <p>&copy; 2026 - Meriem M'barki | Portfolio BTS SIO SISR</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
