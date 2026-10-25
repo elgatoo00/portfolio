@@ -1,4 +1,4 @@
-# Portfolio - Meriem M’barki
+# Portfolio - Meriem Mbarki
 
 Bienvenue sur mon portfolio professionnel.
 
